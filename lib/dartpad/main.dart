@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:test_dartpad_web_embedding/dartpad/view/previewer.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,7 +23,7 @@ class MyApp extends HookWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Previewer(),
+      home: Text("test"),
     );
   }
 }
